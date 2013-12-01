@@ -1,0 +1,29 @@
+body {
+  font-size: 16px;
+}
+
+.jumbotron h1{
+  color: #FA3419;
+}
+.jumbotron small{
+  color: #eee;
+}
+
+h2, .tomato{
+  color: #FA3419;
+}
+
+.woody{
+  background: url(../images/trees.jpg) no-repeat ;
+  background-attachment: fixed;
+  background-position: 50% 0px;
+  background-size: 100%;
+  color: #eee;
+  min-height: 100px;
+}
+
+.features img {
+  height: 300px;
+  width: 300px;
+}
+
