@@ -14,16 +14,39 @@ h2, .tomato{
 }
 
 .woody{
-  background: url(../images/trees.jpg) no-repeat ;
+  background: url(../images/talltrees.jpg) no-repeat ;
   background-attachment: fixed;
   background-position: 50% 0px;
   background-size: 100%;
   color: #eee;
   min-height: 100px;
+  margin: 20px 0;
+}
+
+.woody .container {
+  background:rgba(0,0,0,0.5);
 }
 
 .features img {
   height: 300px;
   width: 300px;
+}
+
+.questions{
+  padding: 20px 0;
+}
+
+.question {
+  font-style: italic;
+  color: #FA3419;
+
+}
+
+.answer {
+  margin-left: 20%;
+}
+
+.important.answer {
+  font-size: 1.4em;
 }
 
