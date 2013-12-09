@@ -14,22 +14,28 @@ h2, .tomato{
 }
 
 .woody{
-  background: url(../images/talltrees.JPG) no-repeat ;
-  background-attachment: fixed;
-  background-position: 50% 0px;
-  background-size: 100%;
   color: #eee;
   min-height: 100px;
-  margin: 20px 0;
+  margin: 0;
 }
+
+@media (min-width: 900px) {
+  .woody{
+    background: url(../images/talltrees.JPG) repeat-y ;
+    background-attachment: fixed;
+    background-position: 50% 0px;
+    background-size: 100%;
+  }
+}
+
 
 .woody .container {
   background:rgba(0,0,0,0.5);
 }
 
-.features img {
-  height: 300px;
-  width: 300px;
+img.me {
+  height: 200px;
+  width: 200px;
 }
 
 .questions{
