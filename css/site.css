@@ -47,6 +47,15 @@ h2, .tomato{
   background-size: 100% auto;
 }
 
+@media (max-width: 768px){
+  .woody{
+    background: url(../images/narrowtrees.jpg) repeat-y ;
+    background-attachment: fixed;
+    background-position: 50% 0px;
+    background-size: 100% auto;
+  }
+}
+
 
 .woody .container {
   background:rgba(45,48,22,0.5);
