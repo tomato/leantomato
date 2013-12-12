@@ -7,6 +7,10 @@ blockquote {
   margin: 0;
 }
 
+a, a:hover{
+  color: #73a22f;
+}
+
 /* Insert the pseudo element - replicating what FontAwesome does */
 blockquote:before {
   content: "\f10d"; 
