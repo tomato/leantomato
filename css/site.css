@@ -20,15 +20,33 @@ blockquote:before {
   font-size:2em;
 }
 
+.logo{
+  font-weight: 100;
+  color: #FA3419;
+}
+
+.logo .char5,
+.logo .char6,
+.logo .char7,
+.logo .char8,
+.logo .char9,
+.logo .char10{
+  font-weight: 400;
+}
+
+.logo .char5{
+  margin-left: -0.1em;
+  margin-right: -0.1em;
+}
+
 .jumbotron h1{
   color: #FA3419;
 }
-.jumbotron small{
-  color: #eee;
-}
 
-.jumbotron strong{
-  letter-spacing: 0.0625em;
+.jumbotron h2{
+  font-size: 40px;
+  font-weight: 200;
+  color: #eee;
 }
 
 h2, .tomato{
