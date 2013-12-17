@@ -101,3 +101,7 @@ h2, .tomato{
   font-weight: 300;
 }
 
+.post {
+  max-width: 600px;
+  margin 0 auto;
+}
