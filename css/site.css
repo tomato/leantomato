@@ -3,7 +3,7 @@ body {
   font-size: 16px;
 }
 
-.important.answer {
+.important.answer, .menu{
   font-size: 19px;
   font-weight: 300;
 }
@@ -104,6 +104,9 @@ h2, .tomato{
   min-height: 2em;
 }
 
+.menu {
+  margin-top: 1em;
+}
 
 .post {
   max-width: 600px;
