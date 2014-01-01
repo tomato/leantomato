@@ -111,3 +111,7 @@ h2, .tomato{
   max-width: 600px;
   margin 0 auto;
 }
+
+#disqus_thread {
+  margin-top: 1em;
+}
