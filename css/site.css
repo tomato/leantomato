@@ -112,6 +112,6 @@ h2, .tomato{
   margin 0 auto;
 }
 
-#disqus_thread {
+#disqus_thread, #share {
   margin-top: 1em;
 }
