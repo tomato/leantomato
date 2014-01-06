@@ -21,5 +21,5 @@ Getting together and sharing what you've discovered and what's bugging you, can 
 
 ##An open chatroom?
 
-Some things just can't and shouldn't wait. Updating a team chat with what you've just discovered or asking for some help can encourage openness in real time, but is this enough? Tools like [Sqwiggle](www.sqwiggle.com) also allow you to see what each other are doing at any time by taking still picture of you with a webcam every few seconds. This is really open, there is nowhere to hide, but then if you really trust each other...
+Some things just can't and shouldn't wait. Updating a team chat with what you've just discovered or asking for some help can encourage openness in real time, but is this enough? Tools like [Sqwiggle](http://www.sqwiggle.com) also allow you to see what each other are doing at any time by taking still picture of you with a webcam every few seconds. This is really open, there is nowhere to hide, but then if you really trust each other...
 		
