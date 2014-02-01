@@ -1,6 +1,7 @@
 /*fonts*/
 body {
   font-size: 16px;
+  padding-top: 30px;
 }
 
 .important.answer, .menu{
@@ -103,10 +104,6 @@ h2, .tomato{
   min-height: 2em;
 }
 
-.menu {
-  margin-top: 1em;
-}
-
 .post {
   max-width: 600px;
   margin 0 auto;
@@ -115,3 +112,25 @@ h2, .tomato{
 #disqus_thread, #share {
   margin-top: 1em;
 }
+
+.navbar {
+  min-height:40px;
+  font-size: 21px;
+  background-color: white;
+  border-bottom: 1px solid #FA3419;
+}
+
+.navbar .menu-container {
+  float: right;
+  padding: 3px;
+}
+
+.navbar .menu-item{
+  background:rgba(45,48,22,0.5);
+  padding: 2px 5px;
+}
+
+.navbar .menu-item a {
+  color: white;
+}
+
