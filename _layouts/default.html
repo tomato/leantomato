@@ -1,3 +1,11 @@
+<!--
+todo
+Add internal links
+ensure all navigation works from home page
+??Add a home link that returns to top
+link at end of post should return to blog on home page
+update content
+-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,7 +15,7 @@
     <meta name="description" content="Marketing website for Lean Tomato Consulting">
     <meta name="author" content="Tom Howlett">
 
-    <title>{{ page.title }}</title>
+    <title>LeanTomato</title>
 
     <link rel="shortcut icon" href="/images/favicon.ico" />
     <!-- Bootstrap core CSS -->
@@ -25,22 +33,35 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body >
+    <nav class="woody navbar navbar-default navbar-fixed-top" role="navigation">
+    <span class="menu-container">
+      <span class="menu-item"><a href="/index.html" data-link="home">Home</a></span>
+      <span class="menu-item"><a href="/index.html#training" data-link="training">Training & Workshops</a></span>
+      <span class="menu-item"><a href="/index.html#consulting" data-link="consulting">Consulting</a></span>
+      <span class="menu-item"><a href="/index.html#speaking" data-link="speaking">Speaking</a></span>
+      <span class="menu-item"><a href="/index.html#about" data-link="about">About</a></span>
+      <span class="menu-item"><a href="/index.html#blog" data-link="blog">Blog</a></span>
+    </span>
+    </nav>
     <div class="container">
-      <a href="/" class="pull-right menu">Home</a>
-      <h1><a href="/" title="Home">
-          <img src="/images/logo.png" class="img-responsive" alt="Lean Tomato Logo" />
-      </a></h1>
+      <h1><img src="/images/logo.png" class="img-responsive" alt="Lean Tomato Logo" /></h1>
     </div>
     <div class="jumbotron woody" >
       <div class="container">
-        <h2>Home working needn't be a compromise...<br/>...the internet was made for this</h2>
+        <h2>Helping teams discover a better way of working...<br/>...at home</h2>
+        <p>At <span class="logo">LeanTomato</span> we open up your <strong>development process</strong>, rooting out the blocks and discovering flow through <strong>visualisation and collaboration</strong>. We help build a team of <strong>autonomous, competent and purposeful developers</strong> and then we send them home, to find their <strong>creativity</strong>, free from the anxiety of office life. 
       </div>
     </div>
 
-    <div class="container questions">
           {{ content }}
-    </div> <!-- /container -->
+
+  <div class="container" style="height:600px">
+    <footer>
+    <p>&copy; Lean Tomato 2013</p>
+    </footer>
+  </div>
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
