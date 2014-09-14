@@ -1,7 +1,6 @@
 /*fonts*/
 body {
   font-size: 16px;
-  padding-top: 30px;
 }
 
 .important.answer, .menu{
@@ -61,6 +60,10 @@ blockquote:before {
 
 .jumbotron h2{
   color: #eee;
+}
+
+.jumbotron a,.jumbotron a:hover {
+  color: #FA3419;
 }
 
 h2, .tomato{
