@@ -1,3 +1,4 @@
+
 @aqua: #4f8b8e;
 @purple: #51345f;
 @dark-grey: #4a2f1c;
@@ -7,14 +8,29 @@
 
 @light-border: 1px solid @light-grey;
 
+@font-face {
+  font-family: leantomato;
+    src: url('../fonts/leantomato.eot'); /* IE9 Compatibility Modes */
+    src: url('../fonts/leantomato.eot?') format('eot'),
+    url('../fonts/leantomato.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/leantomato.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/leantomato.svg#svgleantomato') format('svg'); /* Legacy iOS */
+}
+
+
 .header {
   border-bottom: @light-border;
 
-  .logo h1 {
-    font-weight: 700;
-    line-height: 3.5rem;
-    margin-top: 1rem;
+  .logo {
+    height:100px;
+    h1 {
+      font-weight: 700;
+      line-height: 3.5rem;
+      margin-top: 1rem;
+    }
   }
+
+
 
   ul.menu {
     li {
@@ -32,5 +48,9 @@
 
   .left{
     border-right:@light-border;
+  }
+
+  h2 {
+    width: 400px;
   }
 }
