@@ -1,4 +1,2 @@
-*.swp
-*.swo
-*.swn
+node_modules/
 _site/*

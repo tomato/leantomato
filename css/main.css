@@ -1,0 +1,21 @@
+.header {
+  border-bottom: 1px solid #cdc4ac;
+}
+.header .logo h1 {
+  font-weight: 700;
+  line-height: 3.5rem;
+  margin-top: 1rem;
+}
+.header ul.menu li {
+  display: inline;
+  list-style: none;
+  padding: 1em;
+  margin-left: 2em;
+  float: right;
+}
+.intro {
+  padding-top: 5rem;
+}
+.intro .left {
+  border-right: 1px solid #cdc4ac;
+}
