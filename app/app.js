@@ -41,11 +41,15 @@
     var expand = function($toExpand,$toShrink){
       expandDivision($toExpand, $toShrink);
       rotateTitle($('h2',$toShrink));
+      $('.hide-when-collapsed',$toShrink).velocity("fadeOut");
+      $('.show-when-expanded',$toExpand).velocity("fadeIn");
     };
 
     var equalise = function($shrunk,$expanded){
       equaliseDivision($expanded, $shrunk);
       unRotateTitle($('h2',$shrunk));
+      $('.hide-when-collapsed',$shrunk).velocity("fadeIn");
+      $('.show-when-expanded').velocity("fadeOut");
     };
 
     if(!$clickedE.hasClass('expanded'))
