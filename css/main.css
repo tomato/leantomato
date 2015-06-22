@@ -31,4 +31,8 @@
 }
 .intro h2 {
   width: 400px;
+  cursor: pointer;
+}
+.intro .column.expanded h2 {
+  cursor: default;
 }
