@@ -2,3 +2,4 @@
 *.swo
 *.swn
 _site/*
+node_modules

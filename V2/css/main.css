@@ -1,0 +1,42 @@
+@font-face {
+  font-family: leantomato;
+  src: url('../fonts/leantomato.eot');
+  /* IE9 Compatibility Modes */
+  src: url('../fonts/leantomato.eot?') format('eot'), url('../fonts/leantomato.woff') format('woff'), /* Modern Browsers */ url('../fonts/leantomato.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/leantomato.svg#svgleantomato') format('svg');
+  /* Legacy iOS */
+}
+.header {
+  border-bottom: 1px solid #cdc4ac;
+}
+.header .logo {
+  height: 100px;
+}
+.header .logo h1 {
+  font-weight: 700;
+  line-height: 3.5rem;
+  margin-top: 1rem;
+}
+.header ul.menu li {
+  display: inline;
+  list-style: none;
+  padding: 1em;
+  margin-left: 2em;
+  float: right;
+  cursor: pointer;
+}
+.intro {
+  padding-top: 5rem;
+}
+.intro .left {
+  border-right: 1px solid #cdc4ac;
+}
+.intro h2 {
+  width: 400px;
+  cursor: pointer;
+}
+.intro .column.expanded h2 {
+  cursor: default;
+}
+.menu-content {
+  margin-left: 25%;
+}

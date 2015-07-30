@@ -1,0 +1,67 @@
+
+@aqua: #4f8b8e;
+@purple: #51345f;
+@dark-grey: #4a2f1c;
+@light-grey: #cdc4ac;
+@pale-blue: #9fa49f;
+@burgendy: #9a3737;
+
+@light-border: 1px solid @light-grey;
+
+@font-face {
+  font-family: leantomato;
+    src: url('../fonts/leantomato.eot'); /* IE9 Compatibility Modes */
+    src: url('../fonts/leantomato.eot?') format('eot'),
+    url('../fonts/leantomato.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/leantomato.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/leantomato.svg#svgleantomato') format('svg'); /* Legacy iOS */
+}
+
+
+.header {
+  border-bottom: @light-border;
+
+  .logo {
+    height:100px;
+    h1 {
+      font-weight: 700;
+      line-height: 3.5rem;
+      margin-top: 1rem;
+    }
+  }
+
+
+
+  ul.menu {
+    li {
+      display: inline;
+      list-style: none;
+      padding: 1em;
+      margin-left: 2em;
+      float: right;
+      cursor: pointer;
+    }
+  }
+}
+
+.intro {
+  padding-top: 5rem;
+
+  .left{
+    border-right:@light-border;
+  }
+
+  h2 {
+    width: 400px;
+    cursor: pointer;
+
+  }
+
+  .column.expanded h2{
+    cursor: default;
+  }
+}
+
+.menu-content {
+  margin-left: 25%;
+}
