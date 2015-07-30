@@ -22,6 +22,7 @@
   padding: 1em;
   margin-left: 2em;
   float: right;
+  cursor: pointer;
 }
 .intro {
   padding-top: 5rem;
@@ -35,4 +36,7 @@
 }
 .intro .column.expanded h2 {
   cursor: default;
+}
+.menu-content {
+  margin-left: 25%;
 }
